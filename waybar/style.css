@@ -254,7 +254,7 @@
 #custom-arrow5 {
 	font-size: 11pt;
 	color: @temp;
-	background: @cpu;
+	background: @memory;
 }
 
 #custom-arrow6 {
