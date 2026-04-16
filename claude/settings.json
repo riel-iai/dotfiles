@@ -1,0 +1,13 @@
+{
+  "statusLine": {
+    "type": "command",
+    "command": "bash /home/tmsh/.claude/statusline-command.sh"
+  },
+  "enabledPlugins": {
+    "frontend-design@claude-plugins-official": true,
+    "context7@claude-plugins-official": true,
+    "code-review@claude-plugins-official": true,
+    "claude-md-management@claude-plugins-official": true
+  },
+  "effortLevel": "high"
+}
