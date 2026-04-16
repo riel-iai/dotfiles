@@ -8,6 +8,10 @@
 		"hyprland/window"
 	],
 
+	"modules-center": [
+		"mpd"
+	],
+
 	"modules-right": [
 		"custom/arrow9",
 		"pulseaudio",
@@ -29,6 +33,23 @@
 	],
 
 	// Modules
+
+	"mpd": {
+		"format": "{stateIcon} {artist} - {title} [{elapsedTime:%M:%S}/{totalTime:%M:%S}]",
+		"format-disconnected": "󰝛 Disconnected",
+		"format-stopped": "󰝛 Stopped",
+		"interval": 2,
+		"consume-icons": { "on": "󰮯" },
+		"random-icons": { "on": "󰒝" },
+		"repeat-icons": { "on": "󰑖" },
+		"single-icons": { "on": "󰑘" },
+		"state-icons": { "paused": "󰏤", "playing": "󰐊" },
+		"tooltip-format": "{artist} - {album} - {title}",
+		"on-click": "mpc toggle",
+		"on-click-right": "kitty ncmpcpp",
+		"on-scroll-up": "mpc next",
+		"on-scroll-down": "mpc prev"
+	},
 
 	"battery": {
 		"interval": 10,
