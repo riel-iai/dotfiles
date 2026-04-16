@@ -4,10 +4,7 @@
 
 	"modules-left": [
 		//"sway/mode",
-		"hyprland/workspaces"
-	],
-
-	"modules-center": [
+		"hyprland/workspaces",
 		"hyprland/window"
 	],
 
