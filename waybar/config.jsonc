@@ -4,7 +4,10 @@
 
 	"modules-left": [
 		//"sway/mode",
-		"hyprland/workspaces",
+		"hyprland/workspaces"
+	],
+
+	"modules-center": [
 		"hyprland/window"
 	],
 
@@ -113,7 +116,7 @@
 
 	"hyprland/window": {
 		"format": "{}",
-		"max-length": 90,
+		"max-length": 150,
 		"tooltip": false
 	},
 
