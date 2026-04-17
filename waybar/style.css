@@ -64,6 +64,7 @@
 	color: @white;
 	font-family: JetBrainsMono Nerd Font, Siji;
 	font-size: 10pt;
+	min-height: 32px;
 	/*font-weight: bold;*/
 }
 
@@ -222,67 +223,67 @@
 }
 
 #custom-arrow0 {
-	font-size: 11pt;
+	font-size: 15pt;
 	color: @bg2;
 	background: @time;
 }
 
 #custom-arrow1 {
-	font-size: 11pt;
+	font-size: 15pt;
 	color: @time;
 	background: @layout;
 }
 
 #custom-arrow2 {
-	font-size: 11pt;
+	font-size: 15pt;
 	color: @layout;
 	background: @battery;
 }
 
 #custom-arrow3 {
-	font-size: 11pt;
+	font-size: 15pt;
 	color: @layout;
 	background: @battery;
 }
 
 #custom-arrow4 {
-	font-size: 11pt;
+	font-size: 15pt;
 	color: @battery;
 	background: @temp;
 }
 
 #custom-arrow5 {
-	font-size: 11pt;
+	font-size: 15pt;
 	color: @temp;
 	background: @memory;
 }
 
 #custom-arrow6 {
-	font-size: 11pt;
+	font-size: 15pt;
 	color: @memory;
 	background: @network;
 }
 
 #custom-arrow7 {
-	font-size: 11pt;
+	font-size: 15pt;
 	color: @cpu;
 	background: @memory;
 }
 
 #custom-arrow8 {
-	font-size: 11pt;
+	font-size: 15pt;
 	color: @network;
 	background: @sound;
 }
 
 #custom-arrow9 {
-	font-size: 11pt;
+	font-size: 15pt;
 	color: @sound;
 	background: transparent;
 }
 
 #custom-arrow10 {
-	font-size: 11pt;
+	font-size: 15pt;
 	color: @unfocused;
 	background: @unfocused;
 }

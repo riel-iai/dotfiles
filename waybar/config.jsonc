@@ -1,6 +1,7 @@
 {
 	"layer": "top",
 	"position": "top",
+	"height": 28,
 
 	"modules-left": [
 		//"sway/mode",
@@ -158,8 +159,10 @@
 			"car": "",
 			"default": ["", ""]
 		},
-		"scroll-step": 1,
-		"on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
+		"scroll-step": 5,
+		"on-scroll-up": "pactl set-sink-volume @DEFAULT_SINK@ +5%",
+		"on-scroll-down": "pactl set-sink-volume @DEFAULT_SINK@ -5%",
+		"on-click-right": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
 		"tooltip": false
 	},
 
