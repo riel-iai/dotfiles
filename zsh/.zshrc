@@ -119,6 +119,10 @@ alias waybarconfig="nvim ~/.config/waybar/config.jsonc"
 alias waybarcss="nvim ~/.config/waybar/style.css"
 alias waybarreset="killall waybar && waybar &disown"
 alias pre="claude"
+alias music="ncmpcpp"
+alias play="mpc toggle"
+alias next="mpc next"
+alias prev="mpc prev"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
